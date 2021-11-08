@@ -79,6 +79,7 @@ header {
 /* REGISTRAR */
 
 .box-container-regis {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -201,9 +202,9 @@ header {
 /* MENU REGISTRAR, FECHAR CAIXA DE REGISTRO */
 
 .butn-regis-menu {
-    position: fixed;
-    top: 135px;
-    right: 380px;
+    position: absolute;
+    top: 55px;
+    right: 110px;
 }
 
 .menu-regis-butn {
@@ -263,15 +264,15 @@ header {
 }
 
 .menu-right {
-    position: fixed;
-    top: 15px;
-    right: 130px;
+    position: absolute;
+    top: 35px;
+    right: 65px;
     display: none;
 }
 
 .menu-options {
     width: 100%;
-    height: 100%;
+    height: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
