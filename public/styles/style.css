@@ -265,26 +265,27 @@ header {
 
 .menu-right {
     position: absolute;
-    top: 35px;
+    top: 8px;
     right: 65px;
     display: none;
 }
 
 .menu-options {
-    width: 100%;
-    height: 30%;
+    width: 60%;
+    height: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: fixed;
     z-index: 9999;
-    left: -100%;
+    left: -60%;
     background: #333;
     transition: all 0.5s;
+    border-radius: 40px;
 }
 
 .inpt:checked~.menu-box-complet .menu-options {
-    transform: translateX(100%);
+    transform: translateX(60%);
 }
 
 .menu-ul {
@@ -295,20 +296,22 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 70px;
 }
 
 .menu-li {
     display: flex;
     justify-content: center;
-    line-height: 45px;
-    width: 80%;
-    height: 50px;
-    font-size: 2rem;
+    width: 50%;
+    height: 30px;
+    font-size: 1.3rem;
     color: rgb(255, 255, 255);
     background-color: rgb(251, 175, 34);
     cursor: pointer;
     transition: 0.5s all;
     text-align: center;
+    line-height: 30px;
+    border-radius: 15px;
 }
 
 .menu-li:hover {
@@ -386,10 +389,17 @@ header {
     right: 0;
     word-spacing: 20px;
     color: #7C7C7C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ul-menu {
+    position: absolute;
+    right: 40px;
+    top: -18px;
     list-style: none;
+    display: inline-block;
 }
 
 .li-menu {
