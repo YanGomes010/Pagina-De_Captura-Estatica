@@ -265,7 +265,7 @@ header {
 
 .menu-right {
     position: absolute;
-    top: 40px;
+    top: 15px;
     right: 75px;
     display: none;
 }
